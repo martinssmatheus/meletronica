@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Eletrônica – Assistência Técnica em Notebooks e Redes</title>
+  <meta name="description" content="Assistência técnica especializada em notebooks, redes de computadores e infraestrutura de TI em Poços de Caldas/MG. Matheus Martins." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <svg class="logo-chip" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+          <rect x="10" y="10" width="40" height="40" rx="3" fill="#0a1e3a" stroke="#00a8e8" stroke-width="1.5"/>
+          <line x1="10" y1="20" x2="3"  y2="20" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="30" x2="3"  y2="30" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="40" x2="3"  y2="40" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="50" y1="20" x2="57" y2="20" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="50" y1="30" x2="57" y2="30" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="50" y1="40" x2="57" y2="40" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <text x="30" y="37" font-family="Inter,sans-serif" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">M</text>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-name">M <strong>Eletrônica</strong></span>
+          <span class="logo-sub">Assistência Técnica</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://wa.me/5535987025719?text=Olá!%20Preciso%20de%20assistência%20técnica." class="btn btn-primary nav-cta" target="_blank" rel="noopener">
+        WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="circuit-overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="badge">📍 Poços de Caldas / MG</div>
+        <h1>Assistência Técnica<br /><span class="highlight">Especializada em TI</span></h1>
+        <p class="hero-sub">
+          Manutenção de notebooks, redes de computadores e suporte técnico remoto — diagnóstico rápido e atendimento personalizado.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5535987025719?text=Olá!%20Preciso%20de%20assistência%20técnica." class="btn btn-primary" target="_blank" rel="noopener">
+            Solicitar Orçamento
+          </a>
+          <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">+500</span>
+            <span class="stat-label">Equipamentos Atendidos</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">+10</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Satisfação Garantida</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hv-card hv-top">
+          <div class="hv-icon">💻</div>
+          <div>
+            <strong>Notebooks</strong>
+            <span>Tela, teclado, SSD, RAM</span>
+          </div>
+        </div>
+        <div class="hv-card hv-mid">
+          <div class="hv-icon">🌐</div>
+          <div>
+            <strong>Redes</strong>
+            <span>Wi-Fi, cabeamento, switches</span>
+          </div>
+        </div>
+        <div class="hv-card hv-bot">
+          <div class="hv-icon">🖥️</div>
+          <div>
+            <strong>Suporte Remoto</strong>
+            <span>Formatação, backup, sistema</span>
+          </div>
+        </div>
+        <div class="hv-card hv-extra">
+          <div class="hv-icon">🔒</div>
+          <div>
+            <strong>Segurança</strong>
+            <span>Firewall, VPN, proteção</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">O que fazemos</span>
+        <h2>Nossos Serviços</h2>
+        <p>Soluções completas de TI para pessoas físicas e empresas</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card featured">
+          <div class="service-badge">Mais Solicitado</div>
+          <div class="service-icon">💻</div>
+          <h3>Assistência Técnica de Notebooks</h3>
+          <p>Diagnóstico completo, formatação, troca de peças e upgrade — seu notebook como novo.</p>
+          <ul class="service-list">
+            <li>Formatação e Otimização de Sistema</li>
+            <li>Substituição de Tela e Teclado</li>
+            <li>Reparo de Carcaça e Estrutura</li>
+            <li>Limpeza Interna e Upgrade de Hardware</li>
+            <li>Instalação de SSD e Memória RAM</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🖥️</div>
+          <h3>Suporte Técnico Remoto</h3>
+          <p>Resolução de problemas de software, sistema e performance sem sair de casa.</p>
+          <ul class="service-list">
+            <li>Organização e Aceleração de Sistemas</li>
+            <li>Backup Automático e Seguro (Nuvem/Local)</li>
+            <li>Suporte Remoto para Soluções Rápidas</li>
+            <li>Remoção de vírus e malware</li>
+            <li>Instalação e configuração de programas</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>Redes de Computadores</h3>
+          <p>Projeto, instalação e configuração de redes com e sem fio para residências e empresas.</p>
+          <ul class="service-list">
+            <li>Configuração e Manutenção de Redes Wi-Fi/Cabeadas</li>
+            <li>Instalação Profissional de Roteadores e Switches</li>
+            <li>Montagem e Organização de Racks de Rede</li>
+            <li>Cabeamento Estruturado e Certificação</li>
+            <li>VPN e acesso remoto seguro</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔒</div>
+          <h3>Segurança de Redes</h3>
+          <p>Proteção da sua infraestrutura com firewall, VPN, monitoramento e configurações seguras.</p>
+          <ul class="service-list">
+            <li>Configuração de Firewall</li>
+            <li>VPN site-to-site e client-to-site</li>
+            <li>Monitoramento de tráfego</li>
+            <li>Controle de acesso e políticas</li>
+            <li>Auditoria de segurança</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">☁️</div>
+          <h3>Infraestrutura em Nuvem</h3>
+          <p>Configuração e gerenciamento de ambientes AWS para otimizar processos e reduzir custos.</p>
+          <ul class="service-list">
+            <li>Configuração AWS (EC2, S3, RDS, VPC)</li>
+            <li>Migração para a nuvem</li>
+            <li>Servidores virtuais e storage</li>
+            <li>Backup automatizado em nuvem</li>
+            <li>Monitoramento e alertas</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🛠️</div>
+          <h3>Manutenção de Desktops</h3>
+          <p>Montagem, formatação, upgrade e reparo em computadores de mesa para uso pessoal e empresarial.</p>
+          <ul class="service-list">
+            <li>Montagem e configuração</li>
+            <li>Formatação e reinstalação de SO</li>
+            <li>Upgrade de hardware</li>
+            <li>Troca de fonte, HD e componentes</li>
+            <li>Backup e recuperação de dados</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section section-mid" id="diferenciais">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Por que nos escolher</span>
+        <h2>Nossos Diferenciais</h2>
+        <p>O que faz a M Eletrônica se destacar</p>
+      </div>
+      <div class="diff-grid">
+        <div class="diff-card">
+          <div class="diff-icon">⚡</div>
+          <h4>Atendimento Ágil</h4>
+          <p>Diagnóstico no mesmo dia e reparo rápido para você não ficar sem seu equipamento.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">🎓</div>
+          <h4>Técnico Certificado</h4>
+          <p>AWS, Kubernetes, Docker e mais de uma década de experiência prática em TI.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">💬</div>
+          <h4>Orçamento Transparente</h4>
+          <p>Sem surpresas: você aprova o orçamento antes de qualquer trabalho ser realizado.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">🔧</div>
+          <h4>Garantia nos Serviços</h4>
+          <p>Todos os serviços prestados possuem garantia para sua tranquilidade.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">🏠</div>
+          <h4>Atendimento Domiciliar</h4>
+          <p>Vai até você quando necessário — sem precisar sair de casa ou do escritório.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">📱</div>
+          <h4>Suporte Remoto</h4>
+          <p>Resolução de problemas de software e rede sem precisar deslocar o equipamento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-text">
+        <span class="section-tag">Quem somos</span>
+        <h2>Matheus Martins</h2>
+        <p>
+          Técnico em TI com mais de 10 anos de experiência, fundador da M Eletrônica — empresa de assistência técnica em Poços de Caldas/MG com atendimento humano e personalizado.
+        </p>
+        <p>
+          Especialista em manutenção de notebooks, redes de computadores e infraestrutura de TI, com certificações em AWS, Kubernetes, Docker e Terraform. Atendemos desde usuários domésticos até empresas que precisam de uma rede estruturada e segura.
+        </p>
+        <div class="cert-badges">
+          <span class="badge-item">AWS Cloud Practitioner</span>
+          <span class="badge-item">Kubernetes Essentials</span>
+          <span class="badge-item">Docker Certified</span>
+          <span class="badge-item">Terraform Essentials</span>
+          <span class="badge-item">Mikrotik / Ubiquiti</span>
+        </div>
+      </div>
+      <div class="sobre-visual">
+        <div class="sobre-card-stack">
+          <div class="visual-card vc1">
+            <div class="vc-icon">🔧</div>
+            <div>
+              <strong>Hardware</strong>
+              <span>Notebooks, Desktops, Periféricos</span>
+            </div>
+          </div>
+          <div class="visual-card vc2">
+            <div class="vc-icon">🌐</div>
+            <div>
+              <strong>Redes</strong>
+              <span>Cabeada, Wi-Fi, Corporativa</span>
+            </div>
+          </div>
+          <div class="visual-card vc3">
+            <div class="vc-icon">☁️</div>
+            <div>
+              <strong>Cloud</strong>
+              <span>AWS, VPS, Backup em Nuvem</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section section-mid" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Fale conosco</span>
+        <h2>Entre em Contato</h2>
+        <p>Solicite um orçamento sem compromisso ou tire suas dúvidas</p>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <div class="contato-item">
+            <div class="contato-icon">📍</div>
+            <div>
+              <strong>Localização</strong>
+              <span>Poços de Caldas – MG</span>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon">📧</div>
+            <div>
+              <strong>E-mail</strong>
+              <a href="mailto:meletronica.matheus@gmail.com">meletronica.matheus@gmail.com</a>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/5535987025719" target="_blank" rel="noopener">(35) 98702-5719</a>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon">🕐</div>
+            <div>
+              <strong>Horário de Atendimento</strong>
+              <span>Seg a Sex: 8h – 18h<br />Sáb: 8h – 12h</span>
+            </div>
+          </div>
+          <a href="https://wa.me/5535987025719?text=Olá!%20Preciso%20de%20assistência%20técnica.%20Poderia%20me%20passar%20um%20orçamento?" class="btn btn-whatsapp" target="_blank" rel="noopener">
+            <span class="wa-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </span>
+            Chamar no WhatsApp
+          </a>
+        </div>
+        <form class="contato-form" id="contatoForm">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="servico">Serviço</label>
+            <select id="servico" name="servico">
+              <option value="">Selecione o serviço...</option>
+              <option>Assistência Técnica de Notebook</option>
+              <option>Suporte Técnico Remoto</option>
+              <option>Redes de Computadores</option>
+              <option>Segurança de Redes</option>
+              <option>Infraestrutura em Nuvem</option>
+              <option>Manutenção de Desktop</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva o problema ou o serviço que precisa..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg class="logo-chip" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+          <rect x="10" y="10" width="40" height="40" rx="3" fill="#0a1e3a" stroke="#00a8e8" stroke-width="1.5"/>
+          <line x1="10" y1="20" x2="3"  y2="20" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="30" x2="3"  y2="30" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="40" x2="3"  y2="40" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="50" y1="20" x2="57" y2="20" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="50" y1="30" x2="57" y2="30" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="50" y1="40" x2="57" y2="40" stroke="#00a8e8" stroke-width="1.5" stroke-linecap="round"/>
+          <text x="30" y="37" font-family="Inter,sans-serif" font-size="21" font-weight="800" fill="#ffffff" text-anchor="middle">M</text>
+        </svg>
+        <div>
+          <span class="footer-logo-name">M <strong>Eletrônica</strong></span>
+          <p>Assistência técnica especializada em TI — Poços de Caldas/MG</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a href="mailto:meletronica.matheus@gmail.com">E-mail</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 M Eletrônica — Matheus Martins. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
